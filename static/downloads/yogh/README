@@ -1,0 +1,5 @@
+Fully open source VHDL bitstream generator for ICE-40, built from
+Yosys + GHDL + ghdlsynth + nextpnr + icestorm
+
+Expects to install into /opt/yogh then add /opt/yogh/bin to $PATH
+or build from source with "NONET=1 ./yogh.sh" exporting $PREFIX
